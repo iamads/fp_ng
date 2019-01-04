@@ -36,3 +36,20 @@ const arr1 = [2, 4, 6, 8, 10];
 
 // const numbers = [1.1, 2.4, 3.7, 8, 9.1, 11.2];
 // console.log(numbers.map(Math.floor));
+
+////////////////////////////
+// Map can also be used on array of objects
+
+// const students = [
+//     { name: 'prithvi', age: 20, section: 'A' },
+//     { name: 'shubham', age: 19, section: 'B' },
+//     { name: 'smriti', age: 17, section: 'B'},
+//     { name: 'aprimit', age: 20, section: 'C' },
+//     { name: 'ashvini', age: 16, section: 'A' }
+// ]
+
+// Here I Just want the name of arr the students
+
+// console.log(students.map((student) => student.name));
+
+// Similarly I can get other info: age and section
